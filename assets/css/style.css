@@ -30,3 +30,40 @@
         padding-right: 16px;
     }
 }
+
+
+/* Top Header */
+.top-header {
+    background: #4502C7;
+    padding: 10px 0;
+}
+
+.top-header .inner-wrap {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px 40px;
+}
+
+.top-header .inner-wrap .inner-item {
+    color: #FFFBEB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-header .inner-wrap .inner-item i {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+@media (max-width: 767.98px) {
+    .top-header {
+        display: none;
+    }
+}
