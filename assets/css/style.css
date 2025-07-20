@@ -612,3 +612,56 @@
     }
 }
 
+/* Hot Deals */
+.hot-deals {
+    padding-bottom: 60px;
+}
+
+.box-title {
+    margin-bottom: 30px;
+    color: #4502C7;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hot-deals .inner-wrap .inner-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.hot-deals .inner-wrap .inner-list .inner-item {
+    aspect-ratio: 382/269;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hot-deals .inner-wrap .inner-list .inner-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+    .box-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .hot-deals .inner-wrap .inner-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hot-deals {
+        padding-bottom: 45px;
+    }
+
+    .hot-deals .inner-wrap .inner-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
