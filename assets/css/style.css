@@ -751,3 +751,24 @@
         font-weight: 500;
     }
 }
+
+/* Tour Highlight */
+.tour-highlight {
+    padding-bottom: 60px;
+}
+
+.tour-highlight .inner-image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tour-highlight .inner-image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 575.98px) {
+    .tour-highlight {
+        padding-bottom: 45px;
+    }
+}
