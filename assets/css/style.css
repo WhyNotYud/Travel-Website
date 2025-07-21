@@ -665,3 +665,89 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* Domestic Tours */
+.domestic-tours {
+    padding: 60px 0;
+}
+
+.domestic-tours .box-title {
+    color: #4502C7;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.domestic-tours .inner-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.domestic-tours .inner-button {
+    text-align: center;
+}
+
+.button-outline {
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 6.824px;
+    border: 2px solid #4502C7;
+    background: #FFF;
+    padding: 14px 16px;
+    color: #4502C7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 0.8s ease-in;
+}
+
+.button-outline:hover {
+    background-color: #4502C7;
+    color: #fff;
+}
+
+@media (max-width: 1199.98px) {
+    .domestic-tours .inner-wrap {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .domestic-tours .box-title {
+        font-size: 24px;
+    }
+
+    .domestic-tours .inner-wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .domestic-tours {
+        padding-bottom: 45px;
+    }
+
+    .domestic-tours .product-item {
+        padding: 10px;
+    }
+
+    .domestic-tours .product-item .inner-content {
+        padding: 0;
+    }
+
+    .domestic-tours .product-item .inner-content .inner-desc-item {
+        font-size: 10px;
+    }
+
+    .button-outline {
+        margin-top: 25px;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
