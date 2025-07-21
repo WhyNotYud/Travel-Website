@@ -772,3 +772,69 @@
         padding-bottom: 45px;
     }
 }
+
+/* Domestic Tours */
+.international-tours {
+    padding: 60px 0;
+}
+
+.international-tours .box-title {
+    color: #4502C7;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.international-tours .inner-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.international-tours .inner-button {
+    text-align: center;
+}
+
+@media (max-width: 1199.98px) {
+    .international-tours .inner-wrap {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .international-tours .box-title {
+        font-size: 24px;
+    }
+
+    .international-tours .inner-wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .international-tours {
+        padding-bottom: 45px;
+    }
+
+    .international-tours .product-item {
+        padding: 10px;
+    }
+
+    .international-tours .product-item .inner-content {
+        padding: 0;
+    }
+
+    .international-tours .product-item .inner-content .inner-desc-item {
+        font-size: 10px;
+    }
+
+    .button-outline {
+        margin-top: 25px;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
