@@ -1011,3 +1011,219 @@
     }
 
 }
+
+/* Footer */
+.footer {
+    border-radius: 40px 40px 0px 0px;
+    background: #ECECEC;
+    padding: 60px 0 40px 0;
+}
+
+.footer .inner-top {
+    border-radius: 16px;
+    background: #4502C7;
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer .inner-top .inner-title {
+    width: 389px;
+    color: #FDFDFD;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 24px;
+}
+
+.footer .inner-top .inner-form {
+    flex: 1;
+    border-radius: 14px;
+    background: #FFF;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer .inner-top .inner-form input {
+    border-radius: 8px;
+    border: 1px solid #99A2A5;
+    background: #FFF;
+    display: flex;
+    padding: 14px 28px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    margin-right: 12px;
+}
+
+.footer .inner-top .inner-form button {
+    border-radius: 8px;
+    background: #4502C7;
+    padding: 12px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FDFDFD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.footer .inner-middle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer .inner-middle .inner-link ul {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+.footer .inner-middle .inner-link ul li a {
+    color: #25282B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .inner-middle .inner-social ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer .inner-middle .inner-social ul li a i {
+    width: 24px;
+    height: 24px;
+    color: #25282B;
+    line-height: 24px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #CCD1D2;
+    margin-bottom: 40px;
+}
+.footer .inner-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .inner-bottom .inner-copyright {
+    color: #667479;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .inner-bottom .inner-links {
+    display: flex;
+    gap: 30px;
+    color: #667479;
+    text-align: right;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .inner-bottom .inner-logo img {
+    width: 224px;
+    height: auto;
+}
+
+@media (max-width: 991.98px) {
+    .footer .inner-top {
+        flex-wrap: wrap;
+    }
+
+    .footer .inner-top .inner-title {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer .inner-middle {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer .inner-bottom {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer .inner-bottom .inner-copyright, .footer .inner-bottom .inner-links {
+        width: 100%;
+    }
+
+    .footer .inner-bottom .inner-logo {
+        order: 0;
+        margin: 0 auto;
+    }
+
+    .footer .inner-bottom .inner-links {
+        order: 1;
+        justify-content: center;
+    }
+
+    .footer .inner-bottom .inner-copyright {
+        order: 2;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .footer .inner-middle .inner-link ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer {
+        border-radius: 25px 25px 0 0;
+        padding: 40px 0 40px 0;
+    }
+
+    .footer .inner-top {
+        padding: 20px;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer .inner-top .inner-form {
+        flex-wrap: wrap;
+    }
+
+    .footer .inner-top .inner-form .inner-title {
+        font-size: 18px;
+    }
+
+    .footer .inner-top .inner-form input, .footer .inner-top .inner-form button {
+        width: 100%;
+    }
+
+    .footer .inner-top .inner-form button {
+        font-size: 14px;
+    }
+}
