@@ -1227,3 +1227,27 @@
         font-size: 14px;
     }
 }
+
+/* Box Contact */
+.box-contact {
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    border-radius: 10px;
+    background: #4502C7;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.box-contact ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 10px;
+    justify-content: center;
+}
+
+.box-contact ul li a {
+    font-size: 18px;
+    color: #FFF;
+}
